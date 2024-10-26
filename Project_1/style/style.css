@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    min-width: 700px;
+    max-width: 1800px;
+    margin: 0 auto;
+}
+header{
+    background-color: #1ABC9C;
+    /* height: 70px; */
+    /* width: 100%; */
+    display: flex;
+    padding: 15px 70px;
+    justify-content:space-between;
+    align-items:center;
+}
+
+nav{
+    font-size: 20px;
+    display: flex;
+    gap: 20px;
+    font-family: Inter;
+    font-weight: 400;
+}
+
+a{
+    color: black;
+}
+.social_webs{
+    width: 160px;
+    height: 40px;
+    display: flex;
+    gap: 20px;
+    /* justify-content: space-between; */
+}
+
+/* ---------------main-------------- */
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main img{
+    vertical-align: top;
+}
+
+.main_discription{
+    /* padding: 218px 70px 218px 62px; */
+    padding: 10px 70px 10px 62px;
+}
+
+.main_discription h1{
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 42.36px;
+    text-align: center;
+    margin-bottom: 23px;
+}
+
+.main_discription p{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.2px;
+    text-align: justify;
+}
+
+section{
+    background-color: #DCFFEB;
+    height: 730px;
+    padding: 124px 54px;
+}
+
+section h2{
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 42.36px;
+    text-align: left;
+    padding-bottom: 50px;
+}
+
+section h3{
+    font-family: Oswald;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 35.57px;
+    text-align: left;
+    margin: 0 36px 6px 36px;
+}
+
+.section_card{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_item{
+    background-image:url(../media/project__arena.png);
+    width: 436px;
+    height: 376px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: #FFFFFF;
+}
+
+.card_item:hover{
+    transform: scale(1.1);
+}
+
+.card_item:active{
+    border: solid 2px black;
+}
+
+.card_item p{
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+    text-align: left;
+    margin: 0 36px 2px 36px;
+}
+
+/* ---------------footer-------------- */
+
+footer{
+    height: 450;
+    padding: 84px 69px 76px;
+}
+
+footer h3{
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 42.36px;
+    text-align: left;
+    margin-bottom: 55px;
+}
+.footer_items{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 10px;
+    font-family: "Oswald", sans-serif;;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 35.57px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.contact h4{
+    font-weight: 500;
+    margin: 25px 0;
+    color: #999999;
+}
+
+#email_orange:hover{
+    color: #F7654A;
+}
+
+@media (max-width:1200px){
+    main img{
+        width: 650px;
+        height: 650px;
+    }
+    section{
+        height: 630px;
+        padding: 62px 54px;
+    }
+    section h2{
+        padding-bottom: 25px;
+    }
+}
+
+@media (max-width:1100px){
+    main img{
+        width: 600px;
+        height: 600px;
+    }
+
+}
+
+@media (max-width:1000px){
+    main img{
+        width: 500px;
+        height: 500px;
+    }
+}
+
+@media (max-width:900px){
+    main img{
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media (max-width:850px){
+    main img{
+        width: 250px;
+        height: 250px;
+    }
+
+    .main_discription{
+        padding: 0 60px 0 52px;
+    }
+    .main_discription h1{
+        font-size: 22px;
+        margin-bottom: 9px;
+    }
+    .main_discription p{
+        font-size: 16px;
+        line-height: 18px;
+    }
+}

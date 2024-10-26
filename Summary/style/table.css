@@ -1,0 +1,50 @@
+table{
+    width: 50%;
+    margin: 15px auto;
+    background-color: whitesmoke;
+    text-align: center;
+    border-collapse: collapse;
+    border: solid 2px black;
+}
+
+table th, 
+table td{
+    border: solid 1px gray;
+    padding: 5px 0;
+}
+
+.table_1{
+    border: solid 2px indigo;
+    border-left: 0;
+    border-right: 0;
+    padding: 5px;
+}
+
+.table_1 th, 
+.table_1 td{
+    border: solid 1px powderblue;
+    padding: 5px 0;
+}
+
+.table_2{
+    border: solid 2px crimson;
+    border-left: 0;
+    border-right: 0;
+    padding: 5px;
+}
+
+.table_2 th, .table_2 td{
+    border: solid 1px pink;
+    padding: 5px 0;
+}
+
+.table_4{
+    width: 80%;
+    border: 1px;
+    padding: 5px;
+}
+
+/* .table_4 td{
+    padding: 5px;
+    text-align: left;
+} */

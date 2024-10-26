@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table summary</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="style/table.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Summary</h1>
+        <h2>Повторение пройденого</h2>
+    </div>
+    <section>
+        <table class="table_1">
+            <caption class="tabel_header">
+                Таблица 1. Без объединени я ячеек
+            </caption>
+            <tr>
+                <th>First name</th>
+                <th>Last name</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>Smith</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>Bob</td>
+                <td>Brown</td>
+                <td>25</td>
+            </tr>
+        </table>
+        <table class="table_2">
+            <caption class="tabel_header">
+                Таблица 2. С объединением ячеек в строке
+            </caption>
+            <tr>
+                <th colspan="2">Full name</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>Smith</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>Bob</td>
+                <td>Brown</td>
+                <td>25</td>
+            </tr>
+        </table>
+        <table class="table_3">
+            <caption class="tabel_header">
+                Таблица 3. С объединением ячеек в колонке и строке
+            </caption>
+            <tr>
+                <th colspan="2">Full name</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>Smith</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>Bob</td>
+                <td>Brown</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Hobbies</td>
+                <td>Swimming</td>
+                <td>Cooking</td>
+            </tr>
+                <td>Jogging</td>
+                <td>Volleyball</td>
+            <tr></tr>
+        </table>
+
+        <table class="table_4">
+            <caption>
+                Таблица 4. Объединение ячеек в колонке и стобце
+            </caption>
+            <tr>
+                <td rowspan="2">Браузер</td>
+                <th colspan="2">Internet Explorer</th>
+                <th colspan="3">Opera</th>
+                <th colspan="3">Firefox</th>
+            </tr>
+            <tr>
+                <th>6.0</th>
+                <th>7.0</th>
+                <th>7.0</th>
+                <th>8.0</th>
+                <th>9.0</th>
+                <th>1.0</th>
+                <th>2.0</th>
+            </tr>
+            <tr>
+                <td>Поддерживается</td>
+                <td>Нет</td>
+                <td>Да</td>
+                <td>Нет</td>
+                <td>Да</td>
+                <td>Да</td>
+                <td>Да</td>
+                <td>Да</td>
+            </tr>
+        </table>
+        <p>
+            <a class="link" href="index.html" rel="noopener noreferrer">Назад</a>
+        </p>
+    </section>
+</body>
+</html>

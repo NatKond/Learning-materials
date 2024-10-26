@@ -1,0 +1,82 @@
+*{
+    /* margin: auto 0;
+    padding: 0; */
+    box-sizing: boarding-box;
+    color: black;
+    /* font-size: 1em; */
+}
+body{
+    background-color:darksalmon;
+}
+
+/* p{
+    padding: 10px 0;
+    
+} */
+
+h1{
+    font-size: 28px;
+    color: indigo;
+}
+
+h2 {
+    color: indianred;
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+section{
+    background-color:antiquewhite;
+    border-radius: 10px;
+    width:90%;
+    margin: 15px auto;
+    max-width: 1800px;
+    font-size: 20px;
+    padding: 5px 20px;
+}
+
+img{
+    border-radius: 20px;
+    border: dotted salmon 1px;
+    display: block;
+    margin: 10px auto;
+    padding: 5px;
+}
+
+.header{
+    background-color: bisque;
+    border-radius: 20px;
+    border: solid 2px brown;
+    text-align:center;
+    width:fit-content;
+    padding: 0 80px;
+    margin: 0 auto;
+}
+
+/* .link{
+    margin: 15px;
+} */
+
+.first_letter{
+    font-size: 28px;
+    color: red;
+}
+.color_text{
+    color: cadetblue;
+}
+
+.p_with_border{
+    border-top: 1px solid salmon;
+    border-bottom: 1px dashed salmon;
+    background-color: aliceblue;
+    margin: 15px 0;
+}
+
+.logo_img{
+    border-radius: 0px;
+    border:0;
+    width: 100px;
+    display: inline;
+    padding: 0;
+}
+

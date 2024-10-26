@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 6</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header> 
+        <h1>Урок 6</h1>
+        <h2>Формы воода информации</h2>
+    </header>
+    <section>
+        <form>
+            <p>Ввод текста</p>
+            <input type="text">
+            <p>Ввод чисел</p>
+            <input type="number" max="20" min="0">
+            <input type="number" max="15" min="-5">
+            <p>Ввод даты</p>
+            <input type="month">
+            <p>Ввод пароля</p>
+            <input type="password">
+            <p>Ввод времени</p>
+            <input type="time">
+            <p>Кнопка для выбора</p>
+            <input type="radio" name="gender">man
+            <input type="radio" name="gender">woman
+        </form>
+        <h2>Форма</h2>
+        <form method="get">
+            <label for="userName" >Имя</label>
+            <input autocomplete="additional-name" id="userName" type="text" placeholder="Иван">
+            <label for="lastName">Фамилия</label>
+            <input id="lastName" type="text" placeholder="Иванов">
+            <label>Отчество <input type="text"></label>
+            <p>Пол</p>
+            <div class="form_gender">
+                <p>
+                    <label for="man">
+                        <input type="radio" name="gender" id="man">
+                        Мужской
+                    </label>
+                </p>
+                <p>
+                    <label for="woman">
+                        <input type="radio" name="gender" id="woman">
+                        Женский
+                    </label>
+                </p>
+            </div>
+            <p>Languages</p>
+            <p>
+                <label>
+                    <input type="checkbox"> 
+                    English
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="checkbox">
+                    German
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="checkbox">
+                    Russian
+                </label>
+            </p>
+            <input type="submit">
+            <input type="reset">
+            <p>Любимый цвет</p>
+            <select name="" id="">
+                <option disabled value="">белый</option>
+                <option value="">синий</option>
+                <option value="">желтый</option>
+                <option selected value="">оранжевый</option>
+                <option value="">зеленый</option>
+                <option value="">розовый</option>
+            </select>
+        </form>
+    </section>    
+</body>
+</html>

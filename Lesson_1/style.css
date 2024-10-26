@@ -1,0 +1,55 @@
+header{
+    background-color: bisque;
+    border-radius: 20px;
+    border: solid 2px brown;
+    text-align:center;
+    width:fit-content;
+    padding: 0 80px;
+    margin: 0 auto;
+}
+
+section{
+    padding: 10px;
+    width: 90%;
+    padding: 20px;
+    font-size: 20px;
+    margin: 10px auto;
+}
+
+body{
+    padding: 10px;
+    width: 90%;
+    padding: 0px;
+    font-size: 20px;
+    margin: 10px auto;
+}
+
+h1{
+    /*свойство: значение*/
+    color: indigo;
+
+}
+
+h2{
+    color:indianred;
+}
+
+b{
+    color:cornflowerblue;
+}
+
+p{
+    color:firebrick;
+
+    font-size: 18px;   
+}
+a{
+    font-size: 20px;
+    color:darkslateblue ;
+}
+div{
+    background-color:bisque;
+    width: 300px;
+    border-radius: 10px;
+    padding: 5px 5px 10px 15px;
+}

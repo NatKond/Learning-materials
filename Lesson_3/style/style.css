@@ -1,0 +1,155 @@
+body{
+    background-color:darksalmon;
+}
+
+header{
+    background-color: bisque;
+    border-radius: 20px;
+    border: solid 2px brown;
+    text-align:center;
+    width:fit-content;
+    padding: 0 80px;
+    margin: 0 auto;
+}
+
+h1{
+    color: indigo;
+}
+
+.item_1 img, .item_2 img{
+    max-width: 200px;
+    margin: 0 auto;
+    display: inline;
+}
+
+section{
+    padding: 10px;
+    background-color: #fffee7;
+    border-radius: 10px;
+    width: 90%;
+    padding: 20px;
+    font-size: 20px;
+    margin: 10px auto;
+}
+
+h2{
+    color:indianred;;
+    font-size: 22px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.item_1{
+    border: dotted 2px crimson;
+}
+
+.item_2 {
+    border: dashed 2px indigo;
+}
+
+.header_item{
+    padding: 10px 40px;
+    margin: 10px auto;
+    /* border: solid 1px brown; */
+    border-radius: 10px;
+    text-align:center;
+    width: 200px;
+}
+
+.item_1 .header_item{
+    color:crimson;
+    background-color:rgb(252, 240, 226);
+    width: 100px;
+    border: solid 1px crimson;
+}
+
+.item_2 .header_item{
+    color:blueviolet;
+    background-color:rgb(214, 198, 230);
+    border: solid 1px blueviolet;
+}
+
+.item_1 p, .item_2 p {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 55%;
+    display: inline;
+}
+
+.item_1, .item_2{
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px 0;
+    padding: 0 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2{
+    color:indianred;;
+    font-size: 22px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+h3{
+    color:indianred;
+    font-size: 32px;
+    margin: 10px 0;
+}
+
+.ordered_list_1{
+    list-style-type:upper-roman;
+    list-style-position:inside;
+}
+
+.ordered_list_2{
+    font-size: 22px;
+    list-style-type:decimal;
+    list-style-position:inside;
+    color: dimgray;
+}
+
+.unordered_list_2{
+    list-style-image:url(../D26E03C2-6D35-428A-9B7A-479333D6CC4F.png);
+    list-style-position:outside;
+}
+
+table{
+    border: solid 5px indigo;
+    border-collapse: collapse;
+    font-size: 26px;
+    text-align: center;
+    width: 80%;
+    height: 400px;
+    margin: 10px auto;
+}
+
+.header_tabel{
+    text-align: center;
+}
+
+tr{
+    border: solid 1px dimgray;
+}
+tr:nth-child(odd){
+    background-color: rgb(190, 140, 240);
+}
+
+tr:nth-child(even){
+    background-color: khaki;
+}
+
+td{
+    border: solid 1px dimgray;
+}
+
+td:nth-child(even){
+    background-color: rgb(242, 133, 133);
+}
+
+#color_1{
+    background-color: rgb(242, 204, 133);
+}
+
+.link{
+    margin: 15px 0;
+}

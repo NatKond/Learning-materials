@@ -1,0 +1,47 @@
+*{
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: boarding-box;
+    }
+
+body{
+    background-color:darksalmon;
+}
+
+header{
+    background-color: bisque;
+    border-radius: 20px;
+    border: solid 2px brown;
+    text-align:center;
+    width:fit-content;
+    padding: 0 80px;
+    margin: 5px auto;
+}
+h1{
+    color: indigo;
+}
+h2 {
+    color: indianred;
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+section{
+    background-color:antiquewhite;
+    border-radius: 10px;
+    width:90%;
+    margin: 15px auto;
+    max-width: 1800px;
+    font-size: 20px;
+    padding: 5px 20px;
+}
+
+.link{
+    /* margin: 15px 0; */
+    padding: 15px;
+}
+
+p{
+    padding: 15px;
+    
+}

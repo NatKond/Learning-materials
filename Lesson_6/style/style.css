@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    font-size: 1em;
+}
+
+body{
+    background-color:darksalmon;
+}
+
+header{
+    background-color: bisque;
+    border-radius: 20px;
+    border: solid 2px brown;
+    text-align:center;
+    width:fit-content;
+    padding: 0 80px;
+    margin: 5px auto;
+}
+
+h1{
+    color: indigo;
+    font-size: 26px;
+    padding: 10px;
+}
+
+h2 {
+    color: indianred;
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+
+section{
+    background-color:antiquewhite;
+    border-radius: 10px;
+    width:90%;
+    margin: 15px auto;
+    max-width: 1800px;
+    font-size: 20px;
+    padding: 5px 20px;
+}
+
+label{
+    margin-bottom: 20px;
+}
+
+input{
+    margin-bottom: 15px;
+}
+
+.form_gender{
+    display: flex;
+    flex-direction: column;
+}

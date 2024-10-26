@@ -1,0 +1,18 @@
+.inner_box{
+    width: 200px;
+    height: 200px;
+    background-color: cornflowerblue;
+}
+
+.box,
+.no_box{
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    border: 5px solid;
+    margin: 10px auto;
+}
+
+.no_box{
+    box-sizing: border-box;
+}

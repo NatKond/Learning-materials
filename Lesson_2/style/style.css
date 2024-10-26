@@ -1,0 +1,56 @@
+h1{
+    color: indigo;
+    background-color:bisque;
+    font-size: 2em;
+}
+
+h2{
+    color:indianred;
+}
+
+b{
+    color:cornflowerblue;
+}
+
+p{
+    color:firebrick;
+    font-size: 18px;   
+}
+a{
+    font-size: 20px;
+}
+
+body{
+    padding: 10px;
+    width: 90%;
+    padding: 0px;
+    font-size: 20px;
+    margin: 10px auto;
+}
+
+img {
+    width: 200px;
+}
+
+header{
+    background-color:bisque;
+    width: 50%; 
+    margin: 10px;
+    padding: 0 40px;
+    border: 2px solid firebrick;
+    border-radius: 20px;
+    text-align: center;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.landscape{
+    width: 600px; 
+    padding: 5px;
+    border-radius: 40px;
+    margin-top: 10px;
+    display: block;
+    border: dotted cornflowerblue;
+    margin: 15px auto;
+}

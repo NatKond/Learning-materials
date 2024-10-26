@@ -1,0 +1,30 @@
+
+table{
+    border: solid 3px indigo;
+    border-collapse: collapse;
+    font-size: 26px;
+    text-align: center;
+    width: 80%;
+    /* height: 400px; */
+    margin: 10px auto;
+    background-color: whitesmoke;
+}
+
+td, 
+tr, 
+th{
+    border: solid 1px dimgray;
+    /* height: 35px; */
+    padding: 5px 10px;
+}
+
+th{
+    color:darkslateblue;
+}
+
+.header_tabel {
+    font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: indianred;
+    padding: 15px;
+}

@@ -1,0 +1,49 @@
+.text_1,
+.text_2,
+.text_3,
+.text_4 {
+    margin: 0 auto;
+}
+
+.text_1{
+    width: 80%;
+    font-size: 2em;
+}
+
+.text_2{
+    width: 500px;
+}
+
+.text_3{
+    width: 80%;
+}
+
+.text_4{
+    width: 500px;
+}
+
+.text_container_1,
+.text_container_2
+{
+    border: dotted 1px blueviolet;
+    border-radius: 20px;
+    width: 80%;
+}
+
+.text_container_2{
+    margin: 0 auto;
+}
+
+.text_container_4{
+    font-size: .5em;
+    padding: 15px;
+}
+
+.text_container_inner_1{
+    font-size: 2em;
+}
+
+.text_container_inner_2{
+    font-size: 0.5em;
+}
+
