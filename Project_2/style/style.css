@@ -34,6 +34,9 @@ form h2{
 form{
     margin: 102px 126px;
     width: 430px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
 }
 
 p{
@@ -68,11 +71,6 @@ form h3{
     padding-left: 1px;
 }
 
-form{
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-}
 
 .input_email{
     border-bottom: solid 2px black;
@@ -100,7 +98,7 @@ form{
 
 input{
     border: none;
-    width: 50%;
+    width: 100%;
     font-family: "Poppins", sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -119,7 +117,7 @@ input::placeholder{
 
 form button{
     height: 53px;
-    width: 429px;
+    width: 100%;
     background-color: #0C21C1;
     color: white;
     border-radius: 32px;
@@ -176,4 +174,19 @@ form button{
     font-weight: 300;
     line-height: 30px;
     text-align: left;
+}
+
+@media (max-width:500px){
+    h1{
+        text-align: left;
+        margin-top: 31px;
+        margin-left: 0;
+    }
+    form{
+        margin: 102px 0;
+        width: 320px;
+    }
+    .image{
+        display: none;
+    }
 }
