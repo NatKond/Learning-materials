@@ -129,6 +129,14 @@ form button{
     margin-top: 45px;
 }
 
+button:hover{
+    box-shadow: 2px 2px 2px 2px gray;
+}
+
+button:active{
+    background-color: coral;
+}
+
 .form_footer{
     font-family: "Poppins", sans-serif;
     font-size: 16px;
@@ -140,7 +148,7 @@ form button{
     align-items: center;
     gap: 30px;
 }
-.form_footer img{
+.form_footer img, .form_footer svg{
     margin-right: 20px;
 }
 
