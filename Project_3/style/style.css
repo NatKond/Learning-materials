@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+.container{
+    max-width: 1296px;
+    margin: 0 auto;
+}
+
+.header-content{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 6px 0 10px;
+}
+
+.social ul{
+    display: flex;
+    list-style: none;
+    gap: 56px;
+}
+
+
+main{
+    background-color: #4FBFA5;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 23px 0 45px;
+    font-family: "ABeeZee";
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+
+nav ul a{
+    color:white;
+}
+
+nav ul{
+    display: flex;
+    width: 78.4%;
+    justify-content: space-between;
+    list-style: none;
+}
+
+nav button{
+    background-color: white;
+    padding: 10px 51px 11px;
+    border: none;
+    font-family: "ABeeZee";
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+main{
+    margin-bottom: 146px;
+}
+
+.main_content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.item_info{
+    color:white;
+    margin: 133px;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.item_info h2{
+    margin-bottom: 20px;
+    font-family: "ABeeZee";
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.item_info p{
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.main_content img{
+    margin-bottom: 57px;
+}
+
+.item_info button{
+    margin-top: 40px;
+    padding: 15px 25px;
+    text-transform: uppercase;
+    border: none;
+    background-color: #00868A;
+    font-family: "ABeeZee";
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 21.28px;
+    letter-spacing: 0.05em;
+}
+
+.item_info button:active{
+    background-color: coral;
+}
+
+.item_info button:hover{
+    box-shadow: 2px 2px 1px 0;
+}
+
+.main_content a{
+    color: white;
+}
+
+section{
+    margin-bottom: 128px;
+}
+section h2{
+    color: #00868A;
+    font-family: "ABeeZee";
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 72px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.special_offers img{
+    vertical-align: top;
+}
+
+.special_offers{
+    display: flex;
+    justify-content: space-between;
+}
+
+.special_offer_info{
+    background-color: #00868A;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 30px;
+}
+
+.special_offer_info p{
+    width: 114px;
+    font-family: "ABeeZee";
+    font-size: 21px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.special_offers img:hover{
+    box-shadow: 0 4px 4px #00000040 ;
+}
+
+.arrow{
+    width: 50px;
+    height: 40px;
+    border: solid 1px white;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+footer .social{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    height: 91px;
+}

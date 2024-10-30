@@ -1,11 +1,15 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: boarding-box;
-    color: black;
-    font-size: 1em;
+    box-sizing:border-box;
 }
 
+a{
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+    color:brown;
+}
 
 body{
     background-color:whitesmoke;
@@ -13,56 +17,99 @@ body{
     padding: 15px;
 }
 
-.box{
+.block{
+    width: 500px;
+    height: 500px;
+    background-color: wheat;
+    border: 2px solid;
+    position: relative;
+}
+
+.box_1{
     width: 300px;
     height: 300px;
     background-color: aqua;
     border: 2px solid;
-    position: relative;
-    margin: 15px;
-
+    /* position: relative; */
+    margin: 10px;
 }
 
-.box_item{
+.box_2{
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+    border: 2px solid;
+    /* position: relative; */
+    margin: 10px;
+}
+
+
+.box_1 .box_item{
     width: 100px;
     height: 100px;
     background-color: darkcyan;
     border: 2px solid;
     position: absolute;
-    left: 0px;
-    top: 0px;
+}
+
+.box_1 .box_item:nth-child(1){
+    left: 10px;
+    top: 10px;
+    z-index: 1;
+}
+
+.box_1 .box_item:nth-child(2){
+    left: 50px;
+    top: 50px;
     z-index: 2;
-}
-
-.box_item_2{
-    width: 100px;
-    height: 100px;
-    background-color: greenyellow;
-    border: 2px solid;
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: 1;
-}
-
-.box_item_3{
-    width: 100px;
-    height: 100px;
     background-color: yellow;
+}
+
+.box_1 .box_item:nth-child(3){
+    left: 100px;
+    top: 100px;
+    z-index: 3;
+    background-color: greenyellow;
+}
+
+.box_1 .box_item:nth-child(4){
+    left: 150px;
+    top: 150px;
+    z-index: 4;
+    background-color: coral;
+}
+
+.box_2 .box_item{
+    width: 100px;
+    height: 100px;
+    background-color: darkcyan;
     border: 2px solid;
-    position: absolute;
-    left: 0;
-    bottom: 0;
+    position: relative;
+}
+
+.box_2 .box_item:nth-child(1){
+    left: 110px;
+    top: 10px;
     z-index: 1;
 }
 
-.box_item_4{
-    width: 100px;
-    height: 100px;
+.box_2 .box_item:nth-child(2){
+    left: 10px;
+    top: 10px;
+    z-index: 2;
+    background-color: yellow;
+}
+
+.box_2 .box_item:nth-child(3){
+    left: 10px;
+    top: 10px;
+    z-index: 3;
+    background-color: greenyellow;
+}
+
+.box_2 .box_item:nth-child(4){
+    left: 10px;
+    top: 10px;
+    z-index: 4;
     background-color: coral;
-    border: 2px solid;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    z-index: 1;
 }
