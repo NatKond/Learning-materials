@@ -65,6 +65,10 @@ nav button{
     font-weight: 400;
 }
 
+nav button:hover{
+    box-shadow: 2px 2px 1px 0; 
+}
+
 main{
     margin-bottom: 146px;
 }
@@ -197,6 +201,11 @@ section h2{
 .arrow:hover{
     box-shadow: 2px 2px 1px 0;
 }
+
+.arrow img:hover{
+    box-shadow: none ;
+}
+
 
 footer .social{
     display: flex;
