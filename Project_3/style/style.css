@@ -194,7 +194,7 @@ section h2{
     align-items: center;
 }
 
-div.arrow:hover{
+.arrow:hover{
     box-shadow: 2px 2px 1px 0;
 }
 
