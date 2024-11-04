@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 500px;
+    height:500px;
+    border: 5px solid black;
+    margin: 10px auto;
+    position: relative;
+}
+
+.child1{
+    width: 150px;
+    height: 150px;
+    border: 5px solid coral;
+    background-color: coral;
+    font-size: 20px;
+    position:absolute;
+    left:-5px;
+    bottom: -5px;
+    z-index:2;
+}
+
+.child2{
+    width: 150px;
+    height: 150px;
+    border: 5px solid darkblue;
+    background-color: darkblue;
+    font-size: 20px;
+    position:absolute;
+    left: 45px;
+    bottom: -5px;
+    z-index:1;
+    /* top: 345px;
+    left: 345px; */
+}
