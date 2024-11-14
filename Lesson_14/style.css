@@ -1,0 +1,29 @@
+p{
+    font-size: 20px;
+    padding: 5px;
+    /* color:darkslategrey; */
+    margin:0;
+}
+
+h1{
+    color:darkslateblue;
+    font-size: 28px;
+    text-align: center;
+}
+
+div{
+    width: 95%;
+    margin: 5px auto;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+a{
+    display: block;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+img{
+    border-radius: 5px;
+}

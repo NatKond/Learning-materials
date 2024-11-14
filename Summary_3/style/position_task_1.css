@@ -8,20 +8,28 @@ body {
       sans-serif;
     padding: 1em;
     margin: 0;
-  }
+}
 
-  * {
+.link{
+  color: black;
+  font-size: 20px;
+  margin-left: 10px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+* {
     box-sizing: border-box;
-  }
+}
 
-  .container {
+.container {
     width: 500px;
     padding: 0.5em;
     border: 5px solid #ccc;
     position: relative;
-  }
+}
 
-  .target {
+.target {
     width: 150px;
     height: 150px;
     border-radius: 5px;
@@ -32,4 +40,4 @@ body {
     right:0;
     /* color:#ccc;
     background-color:indigo; */
-  }
+}

@@ -17,35 +17,34 @@ num2 = parseInt(num2);
 console.log(typeof(num1));
 console.log(typeof(num2));
 
-console.log('Сложение:');
+console.log('a + b =');
 console.log(num1 + num2);
-console.log('Вычитание:');
+console.log('a - b =');
 console.log(num1 - num2);
-console.log('Деление:');
+console.log('a/b = ');
 console.log(num1 / num2);
-console.log('Умножение:');
+console.log('a * b = ');
 console.log(num1 * num2);
-console.log('Возведение в степень:');
+console.log('a**2');
 console.log(num1 ** num2);
-console.log('Возвращение остатка:');
+console.log('a % b');
 console.log(num1 % num2);
-document.write(`<p>Сложение: ${num1 + num2}.</p>
-    <p>Вычитание: ${num1 - num2}.</p>
-    <p>Деление: ${num1 / num2}.</p>
-    <p>Умножение: ${num1 * num2}.</p>
-    <p>Возведение в степень: ${num1 ** num2}.</p>
-    <p>Возвращение остатка: ${num1 % num2}.</p>`);
-
-//Задача: Написать программу, которая считывает через prompt число и выводит в консоль ее квадрат
-const number = 5; //prompt('Введите число:');
-console.log(number ** 2);
- 
-//Задача: Разделить 20 конфет на 3 детей и узнать сколько останется папе.
+document.write(`
+    <p>Первое число: a = ${num1}. Второе число: b = ${num2}.</p>
+    <p>Сложение: a + b = ${num1 + num2}.</p>
+    <p>Вычитание: a - b = ${num1 - num2}.</p>
+    <p>Деление: a/b = ${num1 / num2}.</p>
+    <p>Умножение: a * b =  ${num1 * num2}.</p>
+    <p>Возведение в степень: a**2 = ${num1 ** num2}.</p>
+    <p>Возвращение остатка: a % b = ${num1 % num2}.</p>`);
+document.write(`<p>Задача: Написать программу, которая считывает через prompt число и выводит в консоль ее квадрат</p>`);
+document.write(`<p>Квадрат первого числа: ${num1 ** 2}</p>`);
+document.write(`<p>Квадрат второшл числа: ${num2 ** 2}</p>`);
+document.write(`<p>Задача: Разделить 20 конфет на 3 детей и узнать сколько останется папе.</p>`)
 const bonbons = 20;
 const kids = 3;
 const eachKidGets = Math.floor (bonbons/kids);
 const dadGets = bonbons % kids;
-console.log(`Each kid gets ${eachKidGets}, dad gets ${dadGets}`);
-//document.write(`<p>Each kid gets ${eachKidGets}, dad gets ${dadGets}</p>`);
+document.write(`<p>Каждый ребенок получит ${eachKidGets}, папе останется ${dadGets}</p>`);
  
 //window.location = `http://${0.1+0.2}.com`

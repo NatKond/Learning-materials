@@ -1,0 +1,27 @@
+body{
+    margin: 0 15px;
+}
+
+div{
+    margin-top: 10px;
+}
+
+.card-item{
+    border: 3px solid;
+    text-align: center;
+    padding: 20px;
+    background-color: burlywood;
+    margin: 5px auto; 
+    padding:5px;
+    width: 200px;
+    border-radius: 5px; 
+    border: 1px solid brown;
+}
+
+#root{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+}

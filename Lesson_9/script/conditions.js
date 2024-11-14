@@ -6,62 +6,62 @@
 // == - нестрогое сравнение (без сравнения типов)
 // === - строгое сравнение (сравнивает типы)
 // != - неравно
-
-let nummer1 = Number (prompt(`Введите первое число:`));
+let string1 = prompt(`Введите первое число:`);
+let nummer1 = Number (string1);
 let nummer2 = Number (prompt(`Введите второе число:`));
-let string3 = prompt(`Введите третье число:`);
+
 
 console.log(`Первое число больше второго ${nummer1>nummer2}`);
 console.log(`Первое число меньше второго ${nummer1<nummer2}`);
 console.log(`Первое число меньше или равно второму ${nummer1<=nummer2}`);
 console.log(`Первое число больше или равно второму ${nummer1>=nummer2}`);
-console.log(`Первое число нестрого равно третьему ${nummer1==string3}`);
-console.log(`Первое число строго равно третьему ${nummer1===string3}`);
+console.log(`Первое число нестрого равно введенному первому значению ${nummer1==string1}`);
+console.log(`Первое число строго равно введенному первому значению ${nummer1===string1}`);
 
 document.write(
-    `<p>Первое число ${nummer1}, второе число ${nummer2}.</p>
+    `<p>Первое число: ${nummer1}, второе число: ${nummer2}</p>
     <p>Первое число больше второго ${nummer1>nummer2}</p>
     <p>Первое число меньше второго ${nummer1<nummer2}</p>
     <p>Первое число меньше или равно второму ${nummer1<=nummer2}</p>
     <p>Первое число больше или равно второму ${nummer1>=nummer2}</p>
-    <p>Первое число нестрого равно второму ${nummer1==string3}</p>
-    <p>Первое число строго равно второму ${nummer1===string3}</p>`)
+    <p>Первое число нестрого равно введенному через prompt значению ${nummer1==string1}</p>
+    <p>Первое число строго равно введенному через prompt значению ${nummer1===string1}</p>`)
 
-//Задача.  Написать программу, которая получает два числа и выводит наибольшее
-
+document.write(`<p>Задача.  Написать программу, которая получает два числа и выводит равенство или неравенство</p>`)
 if (nummer1 > nummer2) {
-    console.log(`${nummer1} больше ${nummer2}`);
+    document.write(`<p> ${nummer1} > ${nummer2}</p>`);
 } else if (nummer1 < nummer2){
-    console.log(`${nummer2} больше ${nummer1}`);
-} else if ((typeof (nummer1) != Number) || (typeof (nummer2) != Number) ){
-    console.log(`${nummer1} или ${nummer2} не число`);
-}
-else {
-    console.log(`${nummer2} равно ${nummer1}`);
+    document.write(`<p> ${nummer2} > ${nummer1}</p>`);
+} else if (nummer1 === nummer2){
+    document.write(`<p> ${nummer2} = ${nummer1}</p>`);
 }
 
-//Задача. Написать программу, которая считывает через prompt одно число и выводит одну из строк “число положительное”, “число отрицательное”, “число равно нулю"
+//else if ((typeof (nummer1) != `number`) || (typeof (nummer2) != `number`) || (nummer1 === NaN) || (nummer2 === NaN) ){
+    //document.write(`<p> ${nummer1} или ${nummer2} не число.}</p>`);}
 
-const userNumber = Number (prompt (`Введите число:`));
 
-if (userNumber > 0) {
-    console.log(`Число положительное`);
-    document.write(`<p>Число положительное</p>`);
+document.write(`<p>Задача. Написать программу, которая считывает через prompt одно число и выводит одну из строк “число положительное”, “число отрицательное”, “число равно нулю"</p>`);
+
+if (nummer1 > 0) {
+    console.log(`Первое число положительное`);
+    document.write(`<p>Первое число положительное</p>`);
 } 
-else if (userNumber < 0) {
-    console.log(`Число отрицательное`);
-    document.write(`<p>Число отрицательное</p>`);
+else if (nummer1 < 0) {
+    console.log(`Первое число отрицательное`);
+    document.write(`<p>Первое число отрицательное</p>`);
 }
-else if (userNumber === 0){
-    console.log(`Число равно нулю`);
-    document.write(`<p>Число равно нулю</p>`);
+else if (nummer1  === 0){
+    console.log(`Первое число равно нулю`);
+    document.write(`<p>Первое число равно нулю</p>`);
 }
 else {
-    console.log(`Число не является числом`)
-    document.write(`<p>Число не является числом</p>`);
+    console.log(`Введенное значение не является числом`)
+    document.write(`<p>Введенное значение не является числом</p>`);
 }
 
 const month = Number (prompt(`Введите номер месяца`));
+
+document.write(`<p>Введенный номер месяца: ${month}</p>`);
 
 if ((month <= 2 && month > 0) || (month === 12)){
     console.log(`Сейчас зима`);
