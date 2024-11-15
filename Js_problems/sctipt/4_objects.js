@@ -22,34 +22,53 @@ document.write(`<p>Название второго города: ${city2.getName
 
 document.write (`<p>4) У нас есть объект, в котором хранятся зарплаты нашей команды.</p>`);
 
-// let salaries = {
-//   John: 100,
-//   Ann: 160,
-//   Pete: 130
-// }
+const salaries = {
+    John: 100,
+    Ann: 160,
+    Pete: 130
+}
+
 document.write (`<p>Напишите код для суммирования всех зарплат и сохраните результат в переменной sum. Должно получиться 390.
 Если объект salaries пуст, то результат должен быть 0.</p>`);
 
+const sum = salaries.John + salaries.Ann + salaries.Pete;
+document.write (`<p> Cумма всех зарплат: ${sum} </p>`);
+
+
 document.write (`<p>5) Создайте функцию multiplyNumeric(obj), которая умножает все числовые свойства объекта obj на 2.</p>`);
 
-// Например:
 
-// // до вызова функции
-// let menu = {
-//   width: 200,
-//   height: 300,
-//   title: "My menu"
-// };
+const menu = {
+    width: 200,
+    height: 300,
+    title: "My menu"
+};
 
-// multiplyNumeric(menu);
+function multiplyNumeric(menu){
+    Object.keys(menu).forEach(key => {
+        if (typeof menu[key] === "number") {
+            menu[key] *= 2;
+        }
+    })
+}
 
-// // после вызова функции
-// menu = {
-//   width: 400,
-//   height: 600,
-//   title: "My menu"
-// };
-// Обратите внимание, что multiplyNumeric не нужно ничего возвращать. Следует напрямую изменять объект.
-// P.S. Используйте typeof для проверки, что значение свойства числовое.
+/*for (const key of menu) {
+    menu[key] = typeof menu[key] === "number" 
+        ? menu[key] *=2
+        : menu[key];
+}*/
+document.write (`<p>Элементы объекта: ${objectToString(menu)}<p>`)
+
+multiplyNumeric(menu);
+console.log (menu);
+
+
+
+function objectToString (){
+    let strObj = ``;
+    Object.keys(menu).forEach(key => {strObj += menu[key] + ' ';})
+    return  strObj;
+}
+document.write (`<p>Элементы объекта после преобразования: ${objectToString(menu)}<p>`)
 
 
